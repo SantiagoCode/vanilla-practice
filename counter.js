@@ -34,6 +34,8 @@ const setupCounter = (addBtn, resetBtn) => {
   window.addEventListener('storage', () => {
     setStorage.initialState()
   })
+  
+  setStorage.initialState()
 }
 
 export { setupCounter }
