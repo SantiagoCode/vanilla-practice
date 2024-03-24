@@ -31,11 +31,9 @@ const setupCounter = (addBtn, resetBtn) => {
   resetBtn.addEventListener('click', () => {
     setCounter(Number(0))
   })
-
-  // This is what actually update every page
-  setInterval(() => {
+  window.addEventListener('storage', () => {
     setStorage.initialState()
-  }, 500)
+  })
 }
 
 export { setupCounter }
