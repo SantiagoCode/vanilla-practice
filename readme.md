@@ -1,4 +1,4 @@
-# LocalStorage Live Communication ✨
+# Window Communication ✨
 
 This is a practice project, serving as an exploration of interesting concepts that I plan to delve into in the future.
 
